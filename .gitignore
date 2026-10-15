@@ -3,17 +3,28 @@ __pycache__/
 *.py[cod]
 *$py.class
 .pytest_cache/
+.coverage
+htmlcov/
 
 # Virtual environments
 venv/
 .venv/
 env/
+ENV/
+
+# Streamlit local state & secrets
+.streamlit/secrets.toml
+
+# Logs
+*.log
+
+# Environment variables & credentials
+.env
+.env.*
+!.env.example
 
 # IDE & OS files
 .vscode/
 .idea/
 .DS_Store
 Thumbs.db
-
-# Environment variables
-.env
